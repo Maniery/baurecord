@@ -1,0 +1,75 @@
+# ---------- Dependências ----------
+node_modules/
+
+# ---------- Expo ----------
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# ---------- React Native / Metro ----------
+.metro-health-check*
+*.jsbundle
+.bundle/
+
+# ---------- Android ----------
+android/app/build/
+android/build/
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/release/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+.kotlin/
+
+# ---------- iOS ----------
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/
+DerivedData/
+*.xcuserstate
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ---------- Segredos e variáveis de ambiente ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ---------- TypeScript / Build ----------
+*.tsbuildinfo
+
+# ---------- Logs e temporários ----------
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+*.tmp
+.cache/
+
+# ---------- Cobertura de testes ----------
+coverage/
+
+# ---------- Sistema operacional ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Editores / IDEs ----------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
